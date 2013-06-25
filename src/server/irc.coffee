@@ -11,7 +11,7 @@ class BoloIrc
     @client = new IRC(options)
 
     if options.channels?.length
-      @client.addListener 'connected', =>
+      @client.addListener '001', =>
         @client.join options.channels.join(',')
 
     @client.addListener 'privmsg', (m) =>

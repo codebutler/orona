@@ -22,7 +22,7 @@
     "villain": "=0.2.0",
     "faye-websocket": "0.4",
     "connect": "2",
-    "irc-js": "2",
+    "irc-js": "2.0.0-beta",
     "browserify": "1.10"
   },
 
